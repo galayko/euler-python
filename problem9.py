@@ -6,8 +6,8 @@
 # Find the product abc.
 
 def isPythagorean(a, b, c):
-	if (a**2+b**2)==c**2: return True
-	return False
+    if (a**2+b**2)==c**2: return True
+    return False
 
 def getPythagoreanTripletProduct(ressum):
     for a in range(1, ressum+1):

@@ -22,4 +22,3 @@ def fact(n):
 n=20
 res = fact(n*2)/(fact(n)**2)
 print "Res=", res
-

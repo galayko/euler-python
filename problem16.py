@@ -4,6 +4,5 @@
 
 n = 2**1000
 s = "%s" % n
-summ = 0
-for char in s: summ+=int(char)
+summ = reduce(lambda x, y: int(x)+int(y), list(s))
 print "Res=", summ
